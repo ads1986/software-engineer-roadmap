@@ -369,220 +369,215 @@ To have the control of what I learned and how many times I visited a specific to
 - Sharding Strategies
 - CAP Theorem
 
-### 4.7. Learn about APIs
+### 4.8. Learn about APIs
 
 - HATEOAS
 - Open API Spec and Swagger
 - JSON APIs
-		SOAP
-		✓ gRPC
-		Authentication
-			Cookie Based
-			✓ OAuth2
-			Basic Authentication
-			Token Authentication
-			JWT
-			Open ID
-			SAML
+- SOAP
+- [1] gRPC
 
-	Networking, Security and Protocols
+#### 4.8.1. Authentication
 
-		Emails
-			SMTP
-			IMAPS
-			POP3S
-			DMARC
-			SPF
-			Domain Keys
+- Cookie Based
+- [1] OAuth2
+- Basic Authentication
+- Token Authentication
+- JWT
+- Open ID
+- SAML
 
-		✓ HTTP
-		FTP
-		Port Forwarding
+### 4.9. Networking, Security and Protocols
 
-	Web Security Knowledge
-		Hashing Algorithms
-			MD5 and why not to use it
-			SHA Family
-			scrypt
-			bcrypt
-		HTTPS
-		Content Security Policy
-		CORS
-		SSL/TLS
-		OWASP Security Risks
-		SSH
+- [1] HTTP
+- FTP
+- Port Forwarding
+- [1] WebSockets
 
-	Caching
-		CDN
-		Client Side
-		Server Side
-			Redis
-			Memcached
+#### 4.9.1. Emails
 
-	CI/CD
+- SMTP
+- IMAPS
+- POP3S
+- DMARC
+- SPF
+- Domain Keys
 
-	Design and Development Principles
-		GOF Design Patterns
-		Domain Driven Design
-		Test Driven Development
-		SOLID
-		KISS
-		YAGNI
-		DRY
+### 4.10. Web Security Knowledge
 
-	Message Brokers
-		Rabbit MQ
-		✓ Kafka
+- HTTPS
+- Content Security Policy
+- CORS
+- SSL/TLS
+- OWASP Security Risks
+- SSH
 
-	Conteinerization vs Virtualization
-		Docker
-		RKT
-		LXC
+#### 4.10.1. Hashing Algorithms
+- MD5 and why not to use it
+- SHA Family
+- scrypt
+- bcrypt
 
-	GraphQL
-		Apollo
-		Relay Modern
+### 4.11. Caching
+- CDN
+- Client Side
 
-	Graph Databases
-		Neo4j
+#### 4.11.1. Server Side
+- Redis
+- Memcached
 
-	✓ WebSockets
-	
-	Integration
-	    ✓ Apache Camel
+### 4.12. CI/CD
 
-	Web Servers
-		Nginx
-		Apache
+### 4.13. Design and Development Principles
 
-	Building for Scale
+- [1] Domain Driven Design
+- Test Driven Development
 
-		Understand the Diff.
-			Instrumentation
-			Monitoring
-			Telemetry
+### 4.14. Message Brokers
 
-		Migration Strategies
+- Rabbit MQ
+- [1] Kafka
 
-		Horizontal vs Vertical Scaling
+### 4.15. GraphQL
 
-		Building with Observability in mind
+- Apollo
+- Relay Modern
 
-===========================
-Devops RoadMap
-===========================
+### 4.16. Graph Databases
 
-	Operation System
-		Linux
-			Ubuntu
-			CentOS
-			RHEL
+- Neo4j
 
-		Unix
-			FreeBSD
+### 4.17. Systems Integration
+- [1] Apache Camel
 
-	Learn to live in Terminal
+### 4.18. Web Servers
+- Nginx
+- Apache
 
-		Learn Bash Scripting
-		Vim/Nano/PowerShell/Emacs
-		Compiling apps from source (gcc, make and other related stuff)
-		System Performance (nmon, iostat,sar,vmstat)
-		Others (strace, dtrace, systemtap, uname, df and history)
-		Text Manipulation Tools (awk, sed, grep , uniq, cat, cut, echo, fmt, tr, nl, egrep, fgrep and WebSockets)
-		Process Monotoring (ps, top, htop, atop and lsof)
+### 4.19. Building for Scale
 
-	What is and how to setup a ____
-		Reserve Proxy
-		Forward Proxy
-		Caching Server
-		Load Balancer
-		Firewall
+#### 4.19.1. Understand the Diff.
+- Instrumentation
+- Monitoring
+- Telemetry
 
-	Web Server
-		Ngnix
-		Apache
+#### 4.19.2. Migration Strategies
 
-	Learn Infrastructure as Code
+#### 4.19.3. Horizontal vs Vertical Scaling
 
-		Containers
-			Docker
-			LXC
+#### 4.19.4. Building with Observability in mind
 
-		Configuration Managment
-			Ansible
-			Salt
-			Chef
-			Puppet
+## 5. Devops 
 
-		Container Orchestration
-			✓ Kubernetes
-			Docker Swarm
-			Mesos
-			Nomad
+#### 5.1. Operating System
 
-		Infrastructure Provisiong
-			Terraform
-			CloudFormation
-			Pulumi
+#### 5.1.1. Linux
 
-		Learn some CI/CD Tool
-			Gitlab CI
-			Jenkins
-			GiHub Actions
+- Ubuntu
+- CentOS
+- RHEL
 
-	Learn how to monitor sofware and infrastructure
+#### 5.1.2. Unix
 
-		Infrastructure Monitoring	
-			Prometheus
-			Grafana
+- FreeBSD
 
-		Application Monitoring
-			Dynatrace
-			Jaeger
-			New Relic
+### 5.2. Learn to live in Terminal
 
-		Logs Management
-			Elastic Stack (Kibana)
-			Splunk
-			GrayLog
-			Papertrail
+- Learn Bash Scripting
+- Vim/Nano/PowerShell/Emacs
+- Compiling apps from source (gcc, make and other related stuff)
+- System Performance (nmon, iostat,sar,vmstat)
+- Others (strace, dtrace, systemtap, uname, df and history)
+- Text Manipulation Tools (awk, sed, grep , uniq, cat, cut, echo, fmt, tr, nl, egrep, fgrep and WebSockets)
+- Process Monotoring (ps, top, htop, atop and lsof)
 
-	Cloud
+### 5.3. What is and how to setup a ____
+- Reserve Proxy
+- Forward Proxy
+- Caching Server
+- Load Balancer
+- Firewall
 
-		✓ PaaS (Platform as a Service)
+### 5.4. Web Server
+- Ngnix
+- Apache
 
-		IaaS (Infrastructure as a Service)
+### 5.5. Learn Infrastructure as Code
 
-		SaaS (Software as a Service)
+#### 5.5.1. Containers
+- Docker
+- LXC
+- RKT
 
-		Faas (Function as a Service)
+#### 5.5.2. Configuration Managment
+- Ansible
+- Salt
+- Chef
+- Puppet
 
-		Providers
-			AWS
-			Google Cloud
-			Azure
-			Digital Ocean
+#### 5.5.3. Container Orchestration
+- [1] Kubernetes
+- Docker Swarm
+- Mesos
+- Nomad
 
-		Design Patterns 
-			Availabillity
-			Data Management
-			Design and Implementation
-			Management and Monitoring
+#### 5.5.4. Infrastructure Provisiong
+- Terraform
+- CloudFormation
+- Pulumi
 
-===========================
-Fonts
-===========================
+#### 5.5.5. Learn some CI/CD Tool
+- Gitlab CI
+- Jenkins
+- GiHub Actions
 
-Backend RoadMap : https://github.com/kamranahmedse/developer-roadmap/blob/master/img/backend.png?year-2020-2
-DevOps RoadMap : https://github.com/kamranahmedse/developer-roadmap/blob/master/img/devops.png
-Algorithm & Datastructure : Cracking The Code Interview (Page 61)
-Archtecture : https://github.com/AlaaAttya/software-architect-roadmap
-https://github.com/stemmlerjs/software-design-and-architecture-roadmap
+### 5.6. Learn how to monitor sofware and infrastructure
 
-===========================
-Notes
-===========================
+#### 5.6.1. Infrastructure Monitoring	
+- Prometheus
+- Grafana
 
-¹ Patterns presented here where removed in "²Pattern-Oriented Software Architecture (POSA)" topic, just for not repeat patterns in both topics.
-² Patterns presented here where removed in "²Pattern-Oriented Software Architecture (POSA)" topic, just for not repeat patterns in both topics.
-³ Patterns presented here, where removed in "Enterprise Patterns" topic, just for not repeat patterns in both topics.
+#### 5.6.2. Application Monitoring
+- Dynatrace
+- Jaeger
+- New Relic
+
+#### 5.6.3. Logs Management
+- Elastic Stack (Kibana)
+- Splunk
+- GrayLog
+- Papertrail
+
+#### 5.6.3. Cloud
+
+- [1] PaaS (Platform as a Service)
+
+- SaaS (Software as a Service)
+
+- Faas (Function as a Service)
+
+##### 5.6.3.1. Providers
+- AWS
+- Google Cloud
+- Azure
+- Digital Ocean
+
+##### 5.6.3.1. Design Patterns 
+- Availabillity
+- Data Management
+- Design and Implementation
+- Management and Monitoring
+
+## 6. Fonts
+
+- [Backend RoadMap](https://github.com/kamranahmedse/developer-roadmap/blob/master/img/backend.png?year-2020-2)
+- [DevOps RoadMap](https://github.com/kamranahmedse/developer-roadmap/blob/master/img/devops.png)
+- [Cracking The Code Interview (Page 61)](https://www.amazon.com.br/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/ref=asc_df_0984782850/?tag=googleshopp00-20&linkCode=df0&hvadid=379712558847&hvpos=&hvnetw=g&hvrand=8521756856746783476&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001773&hvtargid=pla-388890317700&psc=1)
+- [Archtecture 1 Roadmap](https://github.com/AlaaAttya/software-architect-roadmap)
+- [Archtecture 2 Roadmap](https://github.com/stemmlerjs/software-design-and-architecture-roadmap)
+
+## 7. Notes
+
+- ¹ Patterns presented here where removed in "²Pattern-Oriented Software Architecture (POSA)" topic, just for not repeat patterns in both topics.
+- ² Patterns presented here where removed in "²Pattern-Oriented Software Architecture (POSA)" topic, just for not repeat patterns in both topics.
+- ³ Patterns presented here, where removed in "Enterprise Patterns" topic, just for not repeat patterns in both topics.
