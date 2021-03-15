@@ -1,14 +1,14 @@
 # Software Engineer Roadmap
 
-As a Software Developer I've been facing the same dilemma when deciding what I should learn to become a good Software Engineer. Theres no a right or wrong answer, but I started to dig more about what I should learn that I could improve and evolve in my career.
+As a Software Engineer I've been facing the same dilemma when deciding what I should learn to improve my skills and learn new things. There's no a right or wrong answer, but I started to dig more about what I should learn that I could improve and evolve in my career.
 
-Based on very good books and articles, I created a Software Engineer Roadmap, that have been helping me to keep track of my learning and give me the big picture of the hole key points i should learn.
+Based on very good books and articles, I created a Software Engineer Roadmap, that have helping me to keep track of my learning and give me the big picture of the hole key points I should learn.
 
 ## 1. Checklist of Learning
 
-To have control of what I learned and how many times I visited a specific topic, I include a number inside square brackets before the topic`s name. This number will be increased every time I revisited the topic. If the learning generate any artefact, a link will be included in the topic as in the example below :
+To have the control of what I learned and how many times I visited a specific topic, I include a number inside square brackets before the topic`s name. This number will be increased every time I revisited the topic. If the learning generate any artefact, a link will be included in the topic as in the example below :
 
-[ [1] Some Topic](https://github.com/ads1986/algorithms-and-datastructure/blob/main/src/main/java/com/algorithms/BFS.java)
+- [[1] Some Topic](https://github.com/ads1986/algorithms-and-datastructure/blob/main/src/main/java/com/algorithms/BFS.java)
 
 ## 2. Algorithm & Data Structure
 
