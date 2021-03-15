@@ -53,320 +53,327 @@ To have the control of what I learned and how many times I visited a specific to
 
 #### 3.2.1. Creational
 
-[1] Abstract Factory
-[1] Singleton
-[1] Factory Method
-[1] Prototype
-[1] Builder
+- [[1] Abstract Factory](https://github.com/ads1986/design-patterns-examples/tree/main/src/main/java/com/design/patterns/creational/abstractFactory)
+- [[1] Singleton](https://github.com/ads1986/design-patterns-examples/tree/main/src/main/java/com/design/patterns/creational/singleton)
+- [[1] Factory Method](https://github.com/ads1986/design-patterns-examples/tree/main/src/main/java/com/design/patterns/creational/factory)
+- [[1] Prototype](https://github.com/ads1986/design-patterns-examples/tree/main/src/main/java/com/design/patterns/creational/prototype)
+- [[1] Builder](https://github.com/ads1986/design-patterns-examples/tree/main/src/main/java/com/design/patterns/creational/builder)
 
-    ✓ Structural
+#### 3.2.2. Structural
 
-        ✓ Adapter
-        ✓ Bridge
-        ✓ Decorator
-        ✓ Composite
-        ✓ Proxy
-        ✓ Flyweight
-        ✓ Facade
+- [[1] Adapter](https://github.com/ads1986/design-patterns-examples/tree/main/src/main/java/com/design/patterns/structural/adapter)
+- [[1] Bridge](https://github.com/ads1986/design-patterns-examples/tree/main/src/main/java/com/design/patterns/structural/bridge)
+- [[1] Decorator](https://github.com/ads1986/design-patterns-examples/tree/main/src/main/java/com/design/patterns/structural/decorator)
+- [[1] Composite](https://github.com/ads1986/design-patterns-examples/tree/main/src/main/java/com/design/patterns/structural/composite)
+- [[1] Proxy](https://github.com/ads1986/design-patterns-examples/tree/main/src/main/java/com/design/patterns/structural/proxy)
+- [[1] Flyweight](https://github.com/ads1986/design-patterns-examples/tree/main/src/main/java/com/design/patterns/structural/flightweight)
+- [[1] Facade](
 
-    Behavioral
-        ✓ Chain of Responsability
-        ✓ Command
-        Interpreter
-        Iterator
-        Mediator
-        Memento
-        Observer
-        State
-        Strategy
-        Template Method
-        Visitor
+#### 3.2.2. Behavioral
 
-²Enterprise Integration Patterns (Solve the problems related to the integration between systems)
+- [[1] Chain of Responsability](https://github.com/ads1986/design-patterns-examples/tree/main/src/main/java/com/design/patterns/behavioral/chain)
+- [[1] Command](https://github.com/ads1986/design-patterns-examples/tree/main/src/main/java/com/design/patterns/behavioral/command)
+- Interpreter
+- Iterator
+- Mediator
+- Memento
+- Observer
+- State
+- Strategy
+- Template Method
+- Visitor
 
-    Messaging
+### 3.3. ²Enterprise Integration Patterns (Solve the problems related to the integration between systems)
 
-        ✓ Message Channel
-        Message
-        ✓ Pipes and Filters
-        ✓ Message Router
-        ✓ Message Translator
-        ✓ Message Endpoint
+#### 3.3.1. Messaging
 
-    Message Channel
+- [1] Message Channel
+- Message
+- [1] Pipes and Filters
+- [1] Message Router
+- [1] Message Translator
+- [1] Message Endpoint
 
-        Point-to-Point Channel
-        Publish-Subscribe Channel
-        Datatype Channel
-        Invalid Message Channel
-        Dead Letter Channel
-        Guaranteed Delivery
-        Channel Adapter
-        Messaging Bridge
-        Message Bus
+#### 3.3.2. Message Channel
 
-    Message Construction
+- Point-to-Point Channel
+- Publish-Subscribe Channel
+- Datatype Channel
+- Invalid Message Channel
+- Dead Letter Channel
+- Guaranteed Delivery
+- Channel Adapter
+- Messaging Bridge
+- Message Bus
 
-        Command Message
-        Document Message
-        Event Message
-        Request-Reply
-        Return Address
-        Correlation Identifier
-        Message Sequence
-        Message Expiration
-        Format Indicator
+#### 3.3.3. Message Construction
 
-    Message Router
+- Command Message
+- Document Message
+- Event Message
+- Request-Reply
+- Return Address
+- Correlation Identifier
+- Message Sequence
+- Message Expiration
+- Format Indicator
 
-        Content-Based Router
-        Message Filter
-        Dynamic Router
-        Recipient List
-        Splitter
-        Aggregator
-        Resequencer
-        Composed Message Processor
-        Scatter-Gather
-        Routing Slip
-        Process Manager
-        Message Broker
+#### 3.3.4. Message Router
 
-    Message Transformation
+- Content-Based Router
+- Message Filter
+- Dynamic Router
+- Recipient List
+- Splitter
+- Aggregator
+- Resequencer
+- Composed Message Processor
+- Scatter-Gather
+- Routing Slip
+- Process Manager
+- Message Broker
 
-        Envelope Wrapper
-        Content Enricher
-        Content Filter
-        Claim Check
-        Normalizer
-        Canonical Data Model
+#### 3.3.5. Message Transformation
 
-    Message Endpoint
+- Envelope Wrapper
+- Content Enricher
+- Content Filter
+- Claim Check
+- Normalizer
+- Canonical Data Model
 
-        Messaging Gateway
-        Messaging Mapper
-        Transactional Client
-        Polling Consumer
-        Event-Driven Consumer
-        Competing Consumers
-        Message Dispatcher
-        Selective Consumer
-        Durable Subscriber
-        Idempotent Receiver
-        Service Activator
+#### 3.3.6. Message Endpoint
 
-    System Management
+- Messaging Gateway
+- Messaging Mapper
+- Transactional Client
+- Polling Consumer
+- Event-Driven Consumer
+- Competing Consumers
+- Message Dispatcher
+- Selective Consumer
+- Durable Subscriber
+- Idempotent Receiver
+- Service Activator
 
-        Control Bus
-        Detour
-        Wire Tap
-        Message History
-        Message Store
-        Smart Proxy
-        Test Message
-        Channel Purger
+#### 3.3.6. System Management
 
-³Pattern-Oriented Software Architecture (POSA)
+- Control Bus
+- Detour
+- Wire Tap
+- Message History
+- Message Store
+- Smart Proxy
+- Test Message
+- Channel Purger
 
-        Software architecture
+### 3.4. ³Pattern-Oriented Software Architecture (POSA)
 
-            ✓ Domain model
-            ✓ Layers
-            ✓ Model-View-Controller
-            ✓ Presentation-Abstraction-Control
-            ✓ Microkernel
-            ✓ Reflection
-            ✓ Shared repository
-            ✓ Blackboard
-            ✓ Domain object
-        
-        Distribution Infrastructure
+#### 3.4.1. Software architecture
 
-            ✓ Publisher-subscriber
-            ✓ Message Broker
-            ✓ Client proxy
-            ✓ Requestor
-            ✓ Invoker
-            ✓ Client request handler
-            ✓ Server request handler
+- [1] Domain model
+- [1] Layers
+- [1] Model-View-Controller
+- [1] Presentation-Abstraction-Control
+- [1] Microkernel
+- [1] Reflection
+- [1] Shared repository
+- [1] Blackboard
+- [1] Domain object
 
-        Adaptation and execution
+#### 3.4.2. Distribution Infrastructure
 
-            ✓ Object Adapter
-            ✓ Interceptor
-            ✓ Execute-Around Object
-            ✓ Null Object
-            ✓ Wrapper Facade
-            ✓ Declarative component configuration
-        
-        Resource management
+- [1] Publisher-subscriber
+- [1] Message Broker
+- [1] Client proxy
+- [1] Requestor
+- [1] Invoker
+- [1] Client request handler
+- [1] Server request handler
 
-            ✓ Container
-            ✓ Component Configurator
-            ✓ Object manager
-            ✓ Lookup
-            ✓ Virtual Proxy
-            ✓ Lifecycle callback
-            ✓ Task coordinator
-            ✓ Resource pool
-            ✓ Resource cache
-            ✓ Lazy Acquisition
-            ✓ Eager Acquisition
-            ✓ Partial Acquisition
-            ✓ Activator
-            ✓ Evictor
-            ✓ Leasing
-            ✓ Automated Garbage Collection
-            ✓ Counting Handle
-            ✓ Disposal Method
+#### 3.4.3. Adaptation and execution
 
-        Database access
+- [1] Object Adapter
+- [1] Interceptor
+- [1] Execute-Around Object
+- [1] Null Object
+- [1] Wrapper Facade
+- [1] Declarative component configuration
 
-            ✓ Database Access Layer
-            ✓ Data mapper
-            ✓ Row Data Gateway
-            ✓ Table Data Gateway
-            ✓ Active Record
+#### 3.4.4. Resource management
 
-Enterprise Patterns
+- [1] Container
+- [1] Component Configurator
+- [1] Object manager
+- [1] Lookup
+- [1] Virtual Proxy
+- [1] Lifecycle callback
+- [1] Task coordinator
+- [1] Resource pool
+- [1] Resource cache
+- [1] Lazy Acquisition
+- [1] Eager Acquisition
+- [1] Partial Acquisition
+- [1] Activator
+- [1] Evictor
+- [1] Leasing
+- [1] Automated Garbage Collection
+- [1] Counting Handle
+- [1] Disposal Method
 
-    ✓ Transaction Script
-    ✓ Data Transfer Object (DTO)
-    ✓ Identity Maps
-    ✓ Interactors
-    ✓ Use Cases
-    ✓ Repositories
-    ✓ Comands/Queries (CommandQuerySeparation)
-    ✓ Value Object
-    ✓ Entities
-    ✓ Object/Relational mapping (ORM)
+#### 3.4.5. Database access
 
-Archtectural Principles
+- [1] Database Access Layer
+- [1] Data mapper
+- [1] Row Data Gateway
+- [1] Table Data Gateway
+- [1] Active Record
 
-    ✓ Policy(What should happen and when) vs Detail(Implementation of Policies)
-    ✓ Coupling & cohesion (high cohesion + low coupling)
-    ✓ Composition over inheritance
-    ✓ Encapsulate what varies
-    ✓ Program against abstractions
-    ✓ Holiwood principle (Don't call me, I you call you.)
-    ✓ Don't Repeat Yourself (DRY)
-    ✓ You aren't gonna need it (YAGNI)
-    ✓ Keep it simple, Stupid (KISS)
-    ✓ Law of Demeter
-    ✓ TellDontAsk
+### 3.5. Enterprise Patterns
 
-    ✓ Package Cohesion Principles
-        ✓ Reuse-Release Equivalent Principle (REP)
-        ✓ Common-Reuse Principle (CCP)
-        ✓ Common-Clojure Principle (CRP)
+- [1] Transaction Script
+- [1] Data Transfer Object (DTO)
+- [1] Identity Maps
+- [1] Interactors
+- [1] Use Cases
+- [1] Repositories
+- [1] Comands/Queries (CommandQuerySeparation)
+- [1] Value Object
+- [1] Entities
+- [1] Object/Relational mapping (ORM)
 
-    ✓ Package Coupling Principles
-        ✓ Acyclic Dependency Principle (ADP)
-        ✓ Stable-Dependencies Principle (SDP)
-        ✓ Stable-Abstractions Princple (SAP)
+### 3.6. Archtectural Principles
 
-    ✓ SOLID
-        ✓ Single Responsability Principle (SRP)
-        ✓ Open Close Principle (OCP)
-        ✓ Liskov Substitution Principle (LSP)
-        ✓ Interface Segragation Principle (ISP)
-        ✓ Dependency Inversion Principle (DIP)
+- [1] Policy(What should happen and when) vs Detail(Implementation of Policies)
+- [1] Coupling & cohesion (high cohesion + low coupling)
+- [1] Composition over inheritance
+- [1] Encapsulate what varies
+- [1] Program against abstractions
+- [1] Holiwood principle (Don't call me, I you call you.)
+- [1] Don't Repeat Yourself (DRY)
+- [1] You aren't gonna need it (YAGNI)
+- [1] Keep it simple, Stupid (KISS)
+- [1] Law of Demeter
+- [1] TellDontAsk
 
-Archtectural Styles (How to organize our code - Application design at the highest level of abstraction)
+##### 3.6.1. Package Cohesion Principles
+- [1] Reuse-Release Equivalent Principle (REP)
+- [1] Common-Reuse Principle (CCP)
+- [1] Common-Clojure Principle (CRP)
 
-    ✓ Structural
-        ✓ Component-based
-        ✓ Monolithic
-        ✓ Layered
+##### 3.6.2. Package Coupling Principles
+- [1] Acyclic Dependency Principle (ADP)
+- [1] Stable-Dependencies Principle (SDP)
+- [1] Stable-Abstractions Princple (SAP)
 
-    ✓ Messaging
-        ✓ Event-Driven
-        ✓ Publish-Subscribe
+##### 3.6.3. SOLID
+- [1] Single Responsability Principle (SRP)
+- [1] Open Close Principle (OCP)
+- [1] Liskov Substitution Principle (LSP)
+- [1] Interface Segragation Principle (ISP)
+- [1] Dependency Inversion Principle (DIP)
 
-    ✓ Distributed
-        ✓ Client-Server
-        ✓ Peer-to-peer
+### 3.7. Archtectural Styles (How to organize our code - Application design at the highest level of abstraction)
 
-Archtectural Patterns (Solve the problems related to the Architectural Style - a way to implement an Architectural Style)
+### 3.7.1. Structural
 
-    ✓ CQRS
-    ✓ Event Sourcing
-    ✓ Domain-Driven Design
-    ✓ Hexagonal Archtecture (Archtecture Design Pattern)
-    ✓ Sagas
-    ✓ Software Orchestrated 
-    ✓ Software Choreography
-    ✓ Message Queues
-    ✓ Event Streaming	
-    ✓ Blackboard pattern
-    ✓ Servless Archtecture
-    ✓ Microkernel
-    ✓ Microservices
-    ✓ Three-tier
-    ✓ Model-View-Controller
-    ✓ Model-View-View-Model
-    ✓ SOA
+- [1] Component-based
+- [1] Monolithic
+- [1] Layered
 
-===========================
-Backend RoadMap
-===========================
+### 3.7.2. Messaging
 
-	Internet
+- [1] Event-Driven
+- [1] Publish-Subscribe
 
-		✓ How does the internet work ?
-		✓ Wha is HTTP ?
-		✓ Browsers and how they work ?
-		✓ DNS and how it works ?
-		✓ What is Domain Name
-		✓ What is hosting ?
+### 3.7.2. Distributed
 
-	Basic Frontend Knowledge
-		✓ HTML
-		✓ CSS
-		✓ JavaScript
+- [1] Client-Server
+- [1] Peer-to-peer
 
-	OS and General Knowledge
-		✓ Terminal Usage
-		✓ How Os work in General
-		✓ Process Managment
-		✓ Threads and Concurrency
-		✓ Basic Terminal Command
-		✓ Memory Managment
-		✓ Interprocess Communication
-		✓ I/O Managment
-		✓ POSIX Basics
-		✓ Basic Networking Concepts
-		✓ Process Managment
-		✓ Sockets
-		✓ Networking Concepts
-		✓ Virtualization
-		Memory/Storage
-		File System
-		Startup Managment (intid)
-		Service Managment (systemd)
+### 3.8. Archtectural Patterns (Solve the problems related to the Architectural Style - a way to implement an Architectural Style)
 
-	Learn a Language
-		✓ Java
+- [1] CQRS
+- [1] Event Sourcing
+- [1] Domain-Driven Design
+- [1] Hexagonal Archtecture (Archtecture Design Pattern)
+- [1] Sagas
+- [1] Software Orchestrated 
+- [1] Software Choreography
+- [1] Message Queues
+- [1] Event Streaming	
+- [1] Blackboard pattern
+- [1] Servless Archtecture
+- [1] Microkernel
+- [1] Microservices
+- [1] Three-tier
+- [1] Model-View-Controller
+- [1] Model-View-View-Model
+- [1] SOA
 
-	Relational Databases
-		PostgreSQL
+## 4. Backend Ecosystem
 
-	NoSQL Databases
-		Mongo DB
+### 4.1. Internet
 
-	More about Databases
-		ORMs
-		ACID
-		Transactions
-		N+1 Problem
-		Data Replication
-		Sharding Strategies
-		CAP Theorem
+- [1] How does the internet work ?
+- [1] What is HTTP ?
+- [1] Browsers and how they work ?
+- [1] DNS and how it works ?
+- [1] What is Domain Name
+- [1] What is hosting ?
 
-	Learn about APIs
-		HATEOAS
-		Open API Spec and Swagger
-		JSON APIs
+### 4.2. Basic Frontend Knowledge
+- [1] HTML
+- [1] CSS
+- [1] JavaScript
+
+### 4.3. OS and General Knowledge
+- [1] Terminal Usage
+- [1] How Os work in General
+- [1] Process Managment
+- [1] Threads and Concurrency
+- [1] Basic Terminal Command
+- [1] Memory Managment
+- [1] Interprocess Communication
+- [1] I/O Managment
+- [1] POSIX Basics
+- [1] Basic Networking Concepts
+- [1] Process Managment
+- [1] Sockets
+- [1] Networking Concepts
+- [1] Virtualization
+- Memory/Storage
+- File System
+- Startup Managment (intid)
+- Service Managment (systemd)
+
+### 4.4. Learn a Language
+- Java
+
+### 4.5. Relational Databases
+
+- PostgreSQL
+
+### 4.6. NoSQL Databases
+
+- Cassandra
+- Mongo DB
+
+### 4.7. More about Databases
+
+- ORMs
+- ACID
+- Transactions
+- N+1 Problem
+- Data Replication
+- Sharding Strategies
+- CAP Theorem
+
+### 4.7. Learn about APIs
+
+- HATEOAS
+- Open API Spec and Swagger
+- JSON APIs
 		SOAP
 		✓ gRPC
 		Authentication
