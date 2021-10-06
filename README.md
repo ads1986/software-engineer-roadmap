@@ -10,6 +10,10 @@ To have the control of what I learned and how many times I visited a specific to
 
 - [[1] Some Topic](https://github.com/ads1986/algorithms-and-datastructure/blob/main/src/main/java/com/algorithms/BFS.java)
 
+### 1.1. Study Guide
+
+I included the file Study_Guide.txt. Is the starting point every time a I decide to start studyng something.
+
 ## 2. Algorithm & Data Structure
 
 ### 2.1. Algorithms
