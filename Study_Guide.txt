@@ -544,14 +544,10 @@ Software Engineer Roadmap
 
 			Container Orchestration
 				✓ Kubernetes
-				Docker Swarm
-				Mesos
-				Nomad
 
 			Infrastructure Provisiong
 				Terraform
 				CloudFormation
-				Pulumi
 
 			Learn some CI/CD Tool
 				Gitlab CI
@@ -600,7 +596,6 @@ Software Engineer Roadmap
 					EKS
 					Lambda
 
-
 				Google Cloud
 
 				Azure
@@ -608,6 +603,7 @@ Software Engineer Roadmap
 				Digital Ocean
 
 			Design Patterns 
+			
 				Availabillity
 				Data Management
 				Design and Implementation
